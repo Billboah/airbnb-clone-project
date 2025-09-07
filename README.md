@@ -45,6 +45,53 @@ This design ensures **data integrity, scalability, and clear entity relationship
 
 ---
 
+## 👥 Team Roles
+
+Even though I worked on this project individually, I approached it as if it were a **real team project**.  
+Here are the typical roles that would exist in a backend-focused development team, inspired by industry practices and the ITRexGroup model:  
+
+### 🔹 Backend Developer
+- Designs and implements the core application logic.  
+- Builds and maintains REST/GraphQL APIs.  
+- Ensures business rules are enforced in the backend.  
+- Works closely with the Database Administrator to integrate data models.  
+
+### 🔹 Database Administrator (DBA)
+- Designs, manages, and optimizes the relational database (MySQL).  
+- Ensures data integrity, security, and performance tuning.  
+- Maintains backups and disaster recovery plans.  
+
+### 🔹 DevOps / CI/CD Engineer
+- Sets up and manages continuous integration and deployment pipelines (GitHub Actions).  
+- Automates builds, testing, and deployments.  
+- Ensures containerization with Docker and smooth integration with cloud environments.  
+
+### 🔹 Security Engineer
+- Implements security best practices in authentication and authorization.  
+- Conducts risk assessments and ensures data protection.  
+- Monitors for vulnerabilities and applies fixes.  
+
+### 🔹 Project Manager / Scrum Master
+- Coordinates tasks, sets milestones, and tracks project progress.  
+- Facilitates communication between developers, DBAs, and QA engineers.  
+- Ensures the project stays aligned with goals and deadlines.  
+
+### 🔹 Quality Assurance (QA) Engineer
+- Writes and executes test cases for API endpoints and business logic.  
+- Ensures the backend meets quality standards before deployment.  
+- Identifies bugs and collaborates with developers to resolve them.  
+
+---
+
+📝 In this project, I personally covered most of these roles:  
+- As a **Backend Developer**, I implemented APIs and core logic.  
+- As a **Database Administrator**, I designed and managed the MySQL schema.  
+- As a **DevOps Engineer**, I set up GitHub Actions and Dockerized the application.  
+- As a **Security Engineer**, I enforced JWT authentication and validation.  
+- I also applied **QA practices** by testing endpoints and workflows.  
+
+---
+
 ## 🔧 Development Practices
 
 Throughout this project, I applied backend development best practices:
