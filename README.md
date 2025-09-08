@@ -5,6 +5,40 @@ The project focuses on **backend development, database design, secure API develo
 
 ---
 
+## ⚡ Feature Breakdown
+
+The backend of the Airbnb Clone was designed around several **core features** that mirror the real-world functionality of a booking platform. Each feature contributes to delivering a secure, reliable, and scalable system.  
+
+### 👤 User Management
+Handles **user registration, authentication, and role-based access control** (e.g., guest, host, admin).  
+This ensures secure access to the system, enabling different permissions for managing listings, bookings, or admin tasks.  
+
+### 🏡 Property Management
+Allows hosts to **create, update, and manage property listings** with details such as price, location, and amenities.  
+This feature ensures that the database maintains an accurate catalog of available rentals, forming the foundation of the platform.  
+
+### 📅 Booking System
+Implements the **reservation workflow**, including check-in/check-out dates, availability checks, and conflict resolution.  
+This feature ensures that two guests cannot book the same property at the same time, maintaining consistency and reliability.  
+
+### 💳 Payment Processing (Simulated)
+Provides a **payment flow simulation** to handle transactions for bookings.  
+Even though real payment gateways are not integrated, this backend feature demonstrates secure handling of booking and transaction data.  
+
+### 📝 Reviews & Ratings
+Enables users to **submit reviews and ratings** for properties and hosts.  
+This feature contributes to **trust and transparency** within the platform, simulating the feedback systems found in real-world booking apps.  
+
+### 🔐 API Security
+Implements **authentication, authorization, and request validation** using JWT and security best practices.  
+This protects sensitive user data, enforces proper permissions, and safeguards against malicious activity.  
+
+### 🔄 CI/CD & Automation
+Integrated **GitHub Actions pipelines** for continuous integration and testing.  
+This ensures code quality, minimizes errors, and automates deployment workflows for efficiency.  
+
+---
+
 ## 🚀 Key Backend Features
 
 - 🛠️ **REST & GraphQL APIs** – robust APIs for managing listings, users, bookings, and payments  
