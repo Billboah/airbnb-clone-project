@@ -126,6 +126,56 @@ Here are the typical roles that would exist in a backend-focused development tea
 
 ---
 
+## 🔐 API Security
+
+Security is a **core priority** in this backend project to ensure data integrity, protect user privacy, and maintain trust in the system. The following measures are implemented:
+
+- **Authentication**:  
+  Users are authenticated using **JWT (JSON Web Tokens)**, ensuring that only verified users can access protected resources.  
+  🔑 Importance: Prevents unauthorized access and ensures only legitimate users can log in or make bookings.  
+
+- **Authorization**:  
+  Role-based access control (e.g., guest, host, admin) restricts access to resources based on user privileges.  
+  🔑 Importance: Protects sensitive operations like managing properties or accessing administrative dashboards.  
+
+- **Rate Limiting**:  
+  Limits the number of requests per user/IP within a certain timeframe.  
+  🔑 Importance: Prevents **brute force attacks** and safeguards against denial-of-service attempts.  
+
+- **Input Validation & Sanitization**:  
+  All incoming data is validated and sanitized before being processed.  
+  🔑 Importance: Protects the application from **SQL injection, XSS, and other injection attacks**.  
+
+- **Encrypted Communication**:  
+  Ensures all data is transmitted over **HTTPS/TLS** for security in transit.  
+  🔑 Importance: Protects sensitive data such as passwords and booking/payment details from interception.  
+
+Together, these measures build a **robust defense layer** around the system to ensure safe operations for users, property owners, and administrators.
+
+---
+
+## 🚀 CI/CD Pipeline
+
+To maintain code quality and enable rapid feature delivery, this project leverages a **CI/CD pipeline**.  
+
+- **What is CI/CD?**  
+  CI/CD (Continuous Integration and Continuous Deployment) automates the process of integrating code changes, running tests, and deploying updates.  
+  ⚙️ Importance: Ensures every change is tested, secure, and production-ready before reaching users.  
+
+- **Why it matters for this project**:  
+  - Automates testing of core backend features (user management, booking, payments).  
+  - Reduces the risk of human error during deployment.  
+  - Ensures fast, reliable releases for iterative development.  
+
+- **Tools & Technologies**:  
+  - **GitHub Actions**: For automated testing and build pipelines.  
+  - **Docker**: To containerize the backend for consistent environments.  
+  - **(Optional)** AWS/GCP/Azure: For cloud-based deployments and scaling.  
+
+The CI/CD pipeline ensures the backend remains **stable, scalable, and production-ready**, even as new features are added.  
+
+---
+
 ## 🔧 Development Practices
 
 Throughout this project, I applied backend development best practices:
